@@ -1,0 +1,19 @@
+{
+  "name": "toastmasters-concurso-club-2026",
+  "private": true,
+  "type": "module",
+  "description": "Concurso del club 2026-2027: concursantes, formatos y boletas (Toastmasters Pachuca)",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "slidev-theme-toastmasters-pachuca": "file:../slidev-theme-toastmasters-pachuca",
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.63.0"
+  }
+}

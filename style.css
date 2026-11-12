@@ -1,0 +1,238 @@
+/* Ajustes de este deck sobre el tema del club. */
+
+/* El tema no da estilo a las listas: el reset de UnoCSS les quita la viñeta. */
+.slidev-layout ul {
+  list-style: disc;
+  margin-top: var(--space-3);
+  padding-left: 1.2em;
+}
+
+.slidev-layout ol {
+  list-style: decimal;
+  margin-top: var(--space-3);
+  padding-left: 1.4em;
+}
+
+.slidev-layout :is(ul, ol) li { margin: var(--space-1) 0; }
+
+.slidev-layout ul li::marker { color: var(--brand-secondary); }
+
+.slidev-layout ol li::marker {
+  color: var(--brand-secondary);
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Sobre el gradiente del cierre, listas y negritas en blanco. */
+.tm-cierre li,
+.tm-cierre strong { color: var(--text-inverse); }
+
+.tm-cierre li { opacity: 0.9; }
+
+.tm-cierre ul li::marker { color: var(--brand-accent); }
+
+/* Rótulo de uso interno en la portada. */
+.interno {
+  border: 1px solid currentColor;
+  border-radius: var(--radius-full, 999px);
+  display: inline-block;
+  font-family: var(--font-main);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  margin-top: var(--space-6);
+  opacity: 0.85;
+  padding: var(--space-1) var(--space-3);
+  text-transform: uppercase;
+}
+
+.tm-portada .interno { color: var(--text-inverse); }
+
+/* Tablas largas: una sola lámina sin desbordar. */
+.densa table { font-size: 0.72rem; }
+
+.densa :is(th, td) { padding: 0.32rem 0.6rem; }
+
+.densa td { line-height: 1.35; }
+
+/* Párrafo de remate bajo una tabla o unas tarjetas. */
+.remate {
+  font-size: 0.8rem;
+  margin-top: var(--space-3);
+}
+
+.nota-pie {
+  color: var(--text-muted);
+  font-size: 0.62rem;
+  margin-top: var(--space-2);
+}
+
+/* Lámina de datos: gráfica a la izquierda, tres cifras a la derecha. */
+.datos {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 1.7fr 1fr;
+  margin-top: var(--space-4);
+}
+
+.datos__grafica {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.datos__lienzo {
+  display: flex;
+  flex-direction: column;
+  height: 16rem;
+  position: relative;
+}
+
+.datos__rotulo {
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-semibold);
+  margin: 0 0 var(--space-2);
+}
+
+.datos__cifras {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.datos__cifras .tm-tarjeta { padding: var(--space-3) var(--space-4); }
+
+.datos__cifras .tm-tarjeta__n { font-size: 1.6rem; }
+
+/* Dos columnas parejas. */
+.dos {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 1fr 1fr;
+  margin-top: var(--space-3);
+}
+
+.dos h3 {
+  font-size: 0.95rem;
+  margin: 0 0 var(--space-2);
+}
+
+.dos :is(li, p) { font-size: 0.78rem; }
+
+/* Tarjetas con texto corrido: el tamaño del tema es para una línea. */
+.tarjetas-texto .tm-tarjeta__t {
+  font-size: 0.74rem;
+  line-height: 1.45;
+}
+
+.tarjetas-texto .tm-tarjeta__t > p:first-child strong { display: block; margin-bottom: var(--space-1); }
+
+.tarjetas-texto .tm-tarjeta__t p + p { margin-top: var(--space-2); }
+
+/* Cita de cierre en la lámina de Momentos de la Verdad. */
+.slidev-layout blockquote.cita { font-size: 0.82rem; }
+
+.slidev-layout blockquote.cita footer {
+  color: var(--text-muted);
+  font-size: 0.68rem;
+  margin-top: var(--space-2);
+}
+
+/* Párrafos seguidos dentro de las dos columnas, y la nota bajo una tabla. */
+.dos p + p,
+.dos .densa + p,
+.dos ul + p { margin-top: var(--space-3); }
+
+.dos .densa { margin-top: var(--space-2); }
+
+.slidev-layout ul.cols-2 {
+  column-gap: var(--space-6);
+  columns: 2;
+}
+
+.slidev-layout ul.cols-2 li {
+  break-inside: avoid;
+  margin: 0 0 var(--space-2);
+}
+
+/* ---- Concurso del club 2026-2027 ---- */
+
+/* Cuatro categorías en columnas, con sus concursantes. */
+.categorias {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: var(--space-4);
+}
+
+.categoria {
+  background: var(--surface-card, #fff);
+  border: 1px solid var(--border-subtle, #dcd8cf);
+  border-top: 4px solid var(--brand-primary);
+  border-radius: var(--radius-md, 10px);
+  padding: var(--space-3) var(--space-4);
+}
+
+.categoria:nth-child(even) { border-top-color: var(--brand-secondary); }
+
+.categoria h3 {
+  font-size: 0.86rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.categoria .cuenta {
+  color: var(--text-muted);
+  font-size: 0.66rem;
+  margin: 0.15rem 0 var(--space-2);
+}
+
+.slidev-layout .categoria ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slidev-layout .categoria li {
+  align-items: center;
+  border-top: 1px solid var(--border-subtle, #e6e2d9);
+  display: flex;
+  font-size: 0.76rem;
+  gap: 0.5rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0.28rem 0;
+}
+
+/* Boleta a la izquierda, desglose de puntos a la derecha. */
+.boleta {
+  align-items: start;
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 0.95fr 1fr;
+  margin-top: var(--space-2);
+}
+
+.boleta img {
+  border: 1px solid var(--border-subtle, #dcd8cf);
+  border-radius: var(--radius-sm, 6px);
+  max-height: 23.5rem;
+  width: auto;
+}
+
+.boleta table { font-size: 0.72rem; }
+
+.boleta :is(th, td) { padding: 0.26rem 0.55rem; }
+
+.boleta tr.bloque td {
+  background: var(--brand-primary);
+  color: var(--text-inverse, #fff);
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-semibold);
+}
+
+.boleta td:last-child,
+.boleta th:last-child { text-align: right; white-space: nowrap; }
+
+.boleta .remate { font-size: 0.72rem; }
