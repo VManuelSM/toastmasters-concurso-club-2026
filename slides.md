@@ -34,8 +34,8 @@ titulo: Cuatro concursos en una sola jornada
 ---
 
 <Tarjetas>
-<Tarjeta n="8" tono="acento">concursantes inscritos</Tarjeta>
-<Tarjeta n="14">participaciones en total</Tarjeta>
+<Tarjeta n="9" tono="acento">concursantes inscritos</Tarjeta>
+<Tarjeta n="13">participaciones en total</Tarjeta>
 <Tarjeta n="4" tono="exito">categorías: Table Topics, Relatos Fantásticos, Oratoria en español e International Speech</Tarjeta>
 </Tarjetas>
 
@@ -45,7 +45,7 @@ titulo: Cuatro concursos en una sola jornada
 - **De aquí salen** los representantes del club al concurso del Área 02.
 
 <!--
-La jornada dura dos horas y media y no lleva receso: con catorce discursos el tiempo queda justo.
+La jornada dura dos horas y media y no lleva receso: con trece participaciones el cronograma cierra hacia las 20:12 y deja unos quince minutos de margen.
 
 Quien llegue después de que arranque su categoría queda descalificado de esa categoría, no de las demás. Por eso la cita es a las 17:30.
 -->
@@ -58,18 +58,18 @@ titulo: Quién concursa en qué
 <div class="categorias">
 <div class="categoria">
 <h3>Table Topics</h3>
-<p class="cuenta">3 concursantes</p>
+<p class="cuenta">4 concursantes</p>
 <ul>
-<li><Foto slug="carlos-sanchez" nombre="Carlos A. Sánchez" /><span>Carlos A. Sánchez</span></li>
 <li><Foto slug="fatima-vital" nombre="Fátima Vital" /><span>Fátima Vital</span></li>
 <li><Foto slug="bolivar-pedroza" nombre="Bolívar Pedroza" /><span>Bolívar Pedroza</span></li>
+<li><Foto slug="aaron-hernandez" nombre="Aarón Hernández" /><span>Aarón Hernández</span></li>
+<li><Foto slug="edgar-uribe" nombre="Edgar Uribe" /><span>Edgar Uribe</span></li>
 </ul>
 </div>
 <div class="categoria">
 <h3>Relatos Fantásticos</h3>
-<p class="cuenta">4 concursantes</p>
+<p class="cuenta">3 concursantes</p>
 <ul>
-<li><Foto slug="carlos-sanchez" nombre="Carlos A. Sánchez" /><span>Carlos A. Sánchez</span></li>
 <li><Foto slug="gabriela-alquicirez" nombre="Gabriela Alquicirez" /><span>Gabriela Alquicirez</span></li>
 <li><Foto slug="fatima-vital" nombre="Fátima Vital" /><span>Fátima Vital</span></li>
 <li><Foto slug="bolivar-pedroza" nombre="Bolívar Pedroza" /><span>Bolívar Pedroza</span></li>
@@ -77,9 +77,8 @@ titulo: Quién concursa en qué
 </div>
 <div class="categoria">
 <h3>Oratoria en español</h3>
-<p class="cuenta">5 concursantes</p>
+<p class="cuenta">4 concursantes</p>
 <ul>
-<li><Foto slug="carlos-sanchez" nombre="Carlos A. Sánchez" /><span>Carlos A. Sánchez</span></li>
 <li><Foto slug="samuel-perez" nombre="Samuel Pérez" /><span>Samuel Pérez</span></li>
 <li><Foto slug="gabriela-meneses" nombre="Gabriela Meneses" /><span>Gabriela Meneses</span></li>
 <li><Foto slug="edgar-uribe" nombre="Edgar Uribe" /><span>Edgar Uribe</span></li>
@@ -179,15 +178,16 @@ titulo: Cuántos formatos te tocan
 
 | Concursante | Categorías | Certificados | Perfil | Títulos |
 | --- | --- | :-: | :-: | :-: |
-| **Carlos A. Sánchez** | Las cuatro | 4 | 1 | 3 |
 | **Samuel Pérez** | Oratoria · International | 2 | 1 | 2 |
+| **Edgar Uribe** | Table Topics · Oratoria | 2 | 1 | 1 |
 | **Fátima Vital** | Table Topics · Relatos | 2 | 1 | 1 |
 | **Bolívar Pedroza** | Table Topics · Relatos | 2 | 1 | 1 |
+| **Carlos A. Sánchez** | International | 1 | 1 | 1 |
 | **Gabriela Alquicirez** | Relatos | 1 | 1 | 1 |
 | **Gabriela Meneses** | Oratoria | 1 | 1 | 1 |
-| **Edgar Uribe** | Oratoria | 1 | 1 | 1 |
 | **Wendolyn García** | Oratoria | 1 | 1 | 1 |
-| **Total** | **14** | **14** | **8** | **11** |
+| **Aarón Hernández** | Table Topics | 1 | 1 | — |
+| **Total** | **13** | **13** | **9** | **9** |
 
 </div>
 
