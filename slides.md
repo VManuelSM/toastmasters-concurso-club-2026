@@ -34,7 +34,7 @@ titulo: Cuatro concursos en una sola jornada
 ---
 
 <Tarjetas>
-<Tarjeta n="9" tono="acento">concursantes inscritos</Tarjeta>
+<Tarjeta n="10" tono="acento">concursantes inscritos</Tarjeta>
 <Tarjeta n="13">participaciones en total</Tarjeta>
 <Tarjeta n="4" tono="exito">categorías: Table Topics, Relatos Fantásticos, Oratoria en español e International Speech</Tarjeta>
 </Tarjetas>
@@ -79,10 +79,10 @@ titulo: Quién concursa en qué
 <h3>Oratoria en español</h3>
 <p class="cuenta">4 concursantes</p>
 <ul>
-<li><Foto slug="samuel-perez" nombre="Samuel Pérez" /><span>Samuel Pérez</span></li>
 <li><Foto slug="gabriela-meneses" nombre="Gabriela Meneses" /><span>Gabriela Meneses</span></li>
 <li><Foto slug="edgar-uribe" nombre="Edgar Uribe" /><span>Edgar Uribe</span></li>
 <li><Foto slug="wendolyn-garcia" nombre="Wendolyn García" /><span>Wendolyn García</span></li>
+<li><Foto slug="jannet-tolentino" nombre="Jannet Tolentino" /><span>Jannet Tolentino</span></li>
 </ul>
 </div>
 <div class="categoria">
@@ -178,16 +178,17 @@ titulo: Cuántos formatos te tocan
 
 | Concursante | Categorías | Certificados | Perfil | Títulos |
 | --- | --- | :-: | :-: | :-: |
-| **Samuel Pérez** | Oratoria · International | 2 | 1 | 2 |
 | **Edgar Uribe** | Table Topics · Oratoria | 2 | 1 | 1 |
 | **Fátima Vital** | Table Topics · Relatos | 2 | 1 | 1 |
 | **Bolívar Pedroza** | Table Topics · Relatos | 2 | 1 | 1 |
 | **Carlos A. Sánchez** | International | 1 | 1 | 1 |
+| **Samuel Pérez** | International | 1 | 1 | 1 |
 | **Gabriela Alquicirez** | Relatos | 1 | 1 | 1 |
 | **Gabriela Meneses** | Oratoria | 1 | 1 | 1 |
 | **Wendolyn García** | Oratoria | 1 | 1 | 1 |
+| **Jannet Tolentino** | Oratoria | 1 | 1 | 1 |
 | **Aarón Hernández** | Table Topics | 1 | 1 | — |
-| **Total** | **13** | **13** | **9** | **9** |
+| **Total** | **13** | **13** | **10** | **9** |
 
 </div>
 
